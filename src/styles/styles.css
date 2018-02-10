@@ -3,8 +3,16 @@ body {
     font-size: 16px !important;
 }
 
-.layout-transparent {
-    background-color: #eef4f4;
+.layout-transparent::after {
+    background: url('../assets/images/background.jpeg') center / cover no-repeat;
+    opacity: 0.2;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
 }
 
 .mdl-layout__header,
@@ -23,29 +31,6 @@ body {
     border-bottom: 2px indigo solid;
 }
 
-.card-wide.mdl-card {
-    width: 100%;
-    color: #eef4f4;
-    overflow-y: auto;
-}
-
-.card-wide.mdl-card::after {
-    background: url('../assets/images/background.jpeg') center / cover;
-    opacity: 0.5;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -2;
-}
-
-.card-wide.mdl-card .mdl-card__supporting-text {
-    position: relative;
-    width: 96%;
-    overflow: auto;
-}
 
 .mdl-data-table {
     width: 100%;
@@ -55,18 +40,6 @@ body {
     text-align: left;
 }
 
-.card-wide.mdl-card .mdl-card__supporting-text::after {
-    background: #eef4f4;
-    opacity: 0.9;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    
-}
 
 .mdl-card__title-text {
     padding: 20px;
@@ -89,7 +62,8 @@ body {
 }
 
 @media (min-width: 992px) {
-    .card-wide.mdl-card {
-        width: 50%;
+    .mdl-layout__content {
+        width: 80%;
+        overflow: auto;
     }
 }
