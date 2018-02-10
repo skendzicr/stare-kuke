@@ -1,0 +1,91 @@
+body {
+    font-family: Roboto;
+    font-size: 16px !important;
+}
+
+.layout-transparent {
+    background-color: #eef4f4;
+}
+
+.mdl-layout__header,
+.mdl-layout__drawer-button,
+.mdl-navigation .mdl-navigation__link {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: black;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    line-height: 32px;
+}
+
+.mdl-layout__header-row .mdl-navigation__link.active {
+    border-bottom: 2px indigo solid;
+}
+
+.card-wide.mdl-card {
+    width: 100%;
+    color: #eef4f4;
+    overflow-y: auto;
+}
+
+.card-wide.mdl-card::after {
+    background: url('../assets/images/background.jpeg') center / cover;
+    opacity: 0.5;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.card-wide.mdl-card .mdl-card__supporting-text {
+    position: relative;
+    width: 96%;
+    overflow: auto;
+}
+
+.mdl-data-table {
+    width: 100%;
+}
+
+.card-wide.mdl-card .mdl-card__supporting-text::after {
+    background: #eef4f4;
+    opacity: 0.9;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.mdl-card__title-text {
+    padding: 20px;
+    color: black;
+}
+
+.mdl-navigation__link:hover {
+    border-bottom: 2px black solid;
+}
+
+.mdl-layout__content,
+.mdl-layout__header-row {
+    display: flex;
+    justify-content: center;
+}
+
+.mdl-layout__image {
+    height: 100%;
+    opacity: 0.5;
+}
+
+@media (min-width: 992px) {
+    .card-wide.mdl-card {
+        width: 50%;
+    }
+}
