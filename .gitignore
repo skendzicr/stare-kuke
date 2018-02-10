@@ -1,6 +1,0 @@
-node_modules
-.vscode
-*.log
-yarn.lock
-.yarnclean
-/dist
