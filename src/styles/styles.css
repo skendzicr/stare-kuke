@@ -51,6 +51,10 @@ body {
     width: 100%;
 }
 
+.mdl-data-table td, .mdl-data-table th {
+    text-align: left;
+}
+
 .card-wide.mdl-card .mdl-card__supporting-text::after {
     background: #eef4f4;
     opacity: 0.9;
