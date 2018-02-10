@@ -5,6 +5,7 @@ body {
 
 .layout-transparent::after {
     background: url('../assets/images/background.jpeg') center / cover no-repeat;
+    background-position: 100% 25%;
     opacity: 0.2;
     content: "";
     top: 0;
