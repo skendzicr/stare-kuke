@@ -2,6 +2,11 @@ body {
     font-family: Roboto;
     font-size: 16px !important;
 }
+.mdl-layout__drawer-button{
+    background: #f7f7f7;
+    width: 100%;
+    text-align: left;
+}
 
 .layout-transparent::after {
     background: url('../assets/images/background.jpeg') center / cover no-repeat;
@@ -59,6 +64,10 @@ body {
 .mdl-layout__image {
     height: 100%;
     opacity: 0.5;
+}
+
+.mdl-cell--2-col img{
+    width: 100%;
 }
 
 @media (min-width: 992px) {
