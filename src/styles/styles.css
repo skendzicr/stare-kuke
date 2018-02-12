@@ -51,6 +51,14 @@ body {
     color: black;
 }
 
+.mdl-navigation {
+    width: 100%;
+    justify-content: center;
+}
+.flag {
+    font-size: 24px;
+}
+
 .mdl-navigation__link:hover {
     border-bottom: 2px black solid;
 }
