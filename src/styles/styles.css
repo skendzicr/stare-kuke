@@ -70,6 +70,36 @@ body {
     width: 100%;
 }
 
+.mdl-cell--3-col img{
+    width: 100%;
+}
+
+.mdl-cell--4-col img{
+    width: 100%;
+}
+
+.mdl-cell--4-col .mdl-card {
+    width: 100%;
+}
+
+.mdl-cell--6-col .mdl-card {
+    width: 100%;
+}
+
+.guitar {
+    background: url('../assets/images/stare-kuke-2.jpg') center / cover;
+    background-position: 100% 30%;
+}
+.guitar .mdl-card__title-text, .singer .mdl-card__title-text{
+    font-weight: 700;
+    color: #f7f7f7;
+}
+
+.singer {
+    background: url('../assets/images/stare-kuke-6.jpg') center / cover;
+    background-position: 100% 20%;
+}
+
 @media (min-width: 992px) {
     .mdl-layout__content {
         width: 80%;
