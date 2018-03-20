@@ -55,9 +55,6 @@ body {
     width: 100%;
     justify-content: center;
 }
-.flag {
-    font-size: 24px;
-}
 
 .mdl-navigation__link:hover {
     border-bottom: 2px black solid;
@@ -95,8 +92,8 @@ body {
 }
 
 .guitar {
-    background: url('../assets/images/stare-kuke-2.jpg') center / cover;
-    background-position: 100% 30%;
+    background: url('../assets/images/stare-kuke-05.jpg') center / cover;
+    background-position: 100% 10%;
 }
 .guitar .mdl-card__title-text, .singer .mdl-card__title-text{
     font-weight: 700;
@@ -104,8 +101,8 @@ body {
 }
 
 .singer {
-    background: url('../assets/images/stare-kuke-6.jpg') center / cover;
-    background-position: 100% 20%;
+    background: url('../assets/images/stare-kuke-04.jpg') center / cover;
+    background-position: 100% 25%;
 }
 
 @media (min-width: 992px) {
