@@ -75,6 +75,10 @@ body {
     border-bottom: 2px black solid;
 }
 
+.contact-image{
+    width: 24px !important;
+}
+
 .mdl-layout__content,
 .mdl-layout__header-row {
     display: flex;
